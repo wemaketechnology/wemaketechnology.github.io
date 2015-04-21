@@ -52,6 +52,6 @@ social:
   - title: linkedin
     url: 
 
-about_path : /about.html
+blog_path : /blog.html
 # blog_path : /posts.html
 

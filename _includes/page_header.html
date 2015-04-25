@@ -17,9 +17,11 @@
                 <li>
                     <a href="/#about">About</a>
                 </li>
-                <li>
-                    <a href="/#services">Services</a>
-                </li>
+                {% for service in site.categories.services reversed %}
+                    <li>
+                      <a class="page-scroll" href="/#{{ service.pathName }}">{{ service.title }}</a>
+                    </li>
+                {% endfor %}
                 <li>
                     <a href="/#locations">Locations</a>
                 </li>

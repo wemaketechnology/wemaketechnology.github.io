@@ -164,3 +164,9 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.image-service {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}

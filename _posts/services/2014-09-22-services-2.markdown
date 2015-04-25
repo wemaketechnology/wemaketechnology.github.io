@@ -2,12 +2,13 @@
 layout: default
 img: dog.png
 category: Services
-title: 3D Device Mockups<br>by PSDCovers
+title: Engineering Tools
 description: |
 ---
-  We are experts in driving product development in all the phases of the software development cycle. We develop your product tailoring it to your needs, paying attention in every detail and customizing it to satisfy your users and customers.
-  Your product quality and delivery time are crucial for us.
+  It happens to lots of companies that they have their own standalone first-class product but they cannot completely success because their product is tough to use. Here is where Make Technology comes to the scene. 
 
-  We offer two alternative development processes. The first one is the more traditional one, where a set of features are specified and a fixed price is provided. The other option implies the adoption of agile methologies with fixed prices per milestones and where the prioritization and definition of features is a continuous activity. As a result, you can iteratively refine your requirements. This collaborative environment creates the conditions for the development of a high-quality product that will be delivered on time and within the budget.
+  We provide all the necessary tooling for your product, from the definition of the requirements to the development of a new tool and the testing of it. The new product is like a shell for your standalone product which provides several layers of abstraction to your users, a fresh user-friendly UI, and a new way to interact to your old application. All these tooling will definetely improve your customers and users experience with your product.
 
-  We have huge success in product development for our customers, including outstanding companies such as Querix, Verum and AlgoTrader.ch. <a class="page-scroll" href="#contact">Contact us</a> if you are looking for an amazing partner, we will live up your expectations.
+  The tooling products we provide are shipped as Eclipse plugins or as separated Eclipse RCP Applications.
+
+  In the development of these tooling projects, and like almost all the projects we have been working on, we use Eclipse related technologies, such as Eclipse EMF, ECP, EMFforms, Graphiti, Eclipse GMF, Eclipse Sirius, among others.

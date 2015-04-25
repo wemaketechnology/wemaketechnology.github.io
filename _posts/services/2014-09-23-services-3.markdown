@@ -2,7 +2,13 @@
 layout: default
 img: phones.png
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: DSLs and Software for Embedded Systems
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+  These kind of projects are a particular case of the aforementioned Engineering tools section. However, we strongly believe that they deserve an special treatment since the technical knowledge required by these projects is enormous and demanding.
+
+  For the development of these kind of applications we mostly use Eclipse Xtext and Eclipse EMF. Xtext is an opensource framework for development of programming languages and domain-specific languages. The Eclipse EMF project is a modeling framework and code generation facility for building tools and other applications based on a structured data model. Both technologies allow us to develop tailored Domain Specific Languages and tools that provide the capabilities to design and create embedded systems from high level models.
+
+  As mentioned before, these kind of products are shipped as Eclipse plugins or as standalone Eclipse RCP applications. Nevertheless, we do know the increasing popularity of Microsoft Visual Studio. Then, we are happy to announce that we also provide an Xtext solution for Visual Studio. That means that you can now experiment in Visual Studio all the amazing features that Xtext provides to your product in an Eclipse environment. Yes, same features, different environmets. Please, <a class="page-scroll" href="#contact">contact us</a> us whether you want to know more about this solution or if you want port an existing Eclipse Xtext solution to Visual Studio.
+
+  We are experts in Eclipse Xtext and EMF. We are the right people to accomplish the difficult tasks involved in these critical applications.

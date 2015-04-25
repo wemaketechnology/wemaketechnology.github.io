@@ -1,6 +1,6 @@
-<section id="services">
-<!-- Page Content -->
 {% for service in site.categories.services reversed %}
+    <section id="{{service.pathName}}">
+<!-- Page Content -->
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -48,5 +48,5 @@
     </div>
     <!-- /.content-section-b -->
     {% endif %}
+    </section>
 {% endfor %}
-</section>

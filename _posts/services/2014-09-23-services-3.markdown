@@ -2,7 +2,8 @@
 layout: default
 img: phones.png
 category: Services
-title: DSLs and Software for Embedded Systems
+pathName: dsls-and-embedded-systems
+title: DSLs and Embedded Systems
 description: |
 ---
   These kind of projects are a particular case of the aforementioned Engineering tools section. However, we strongly believe that they deserve an special treatment since the technical knowledge required by these projects is enormous and demanding.

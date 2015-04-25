@@ -2,7 +2,12 @@
 layout: default
 img: ipad.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: Product Development
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+  We are experts in driving product development in all the phases of the software development cycle. We develop your product tailoring it to your needs, paying attention in every detail and customizing it to satisfy your users and customers.
+  Your product quality and delivery time are crucial for us.
+
+  We offer two alternative development processes. The first one is the more traditional one, where a set of features are specified and a fixed price is provided. The other option implies the adoption of agile methologies with fixed prices per milestones and where the prioritization and definition of features is a continuous activity. As a result, you can iteratively refine your requirements. This collaborative environment creates the conditions for the development of a high-quality product that will be delivered on time and within the budget.
+
+  We have huge success in product development for our customers, including outstanding companies such as Querix, Verum and AlgoTrader.ch. <a class="page-scroll" href="#contact">Contact us</a> if you are looking for an amazing partner, we will live up your expectations.

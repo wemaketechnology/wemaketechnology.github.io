@@ -1,6 +1,6 @@
 ---
 layout: default
-img: dog.png
+img: engineering_tooling.png
 category: Services
 pathName: engineering-tools
 title: Engineering Tools

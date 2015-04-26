@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: product_development.png
 category: Services
 pathName: product-development
 title: Product Development

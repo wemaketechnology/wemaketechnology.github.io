@@ -170,3 +170,8 @@ p.copyright {
     padding-top: 20%;
     padding-bottom: 20%;
 }
+
+.center-column {
+    position: relative;
+    padding-top: 10%;
+}

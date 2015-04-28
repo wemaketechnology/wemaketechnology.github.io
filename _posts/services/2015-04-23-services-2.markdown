@@ -8,8 +8,8 @@ description: |
 ---
   It happens to lots of companies that they have their own standalone first-class product but they cannot completely success because their product is tough to use. Here is where Make Technology comes to the scene. 
 
-  We provide all the necessary tooling for your product, from the definition of the requirements to the development of a new tool and the testing of it. The new product is like a shell for your standalone product which provides several layers of abstraction to your users, a fresh user-friendly UI, and a new way to interact to your old application. All these tooling will definetely improve your customers and users experience with your product.
+  **We provide all the necessary tooling for your product, from the definition of the requirements to the development of a new tool and the testing of it.** The new product is like a shell for your standalone product which provides several layers of abstraction to your users, a fresh user-friendly UI, and a new way to interact to your old application. **All these tooling will definetely improve your customers and users experience with your product.**
 
   The tooling products we provide are shipped as Eclipse plugins or as separated Eclipse RCP Applications.
 
-  In the development of these tooling projects, and like almost all the projects we have been working on, we use Eclipse related technologies, such as Eclipse EMF, ECP, EMFforms, Graphiti, Eclipse GMF, Eclipse Sirius, among others.
+  In the development of these tooling projects, and like almost all the projects we have been working on, **we use Eclipse related technologies, such as Eclipse EMF, ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, Eclipse 4, among others.**

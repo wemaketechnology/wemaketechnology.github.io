@@ -17,12 +17,12 @@ description: > # "Write an awesome description for your new site here.
   head meta (for Google search results) and in your feed.xml site 
   description."
 
-author :
-  name : Sebastian Sampaoli
-  email : seba.sampaoli@gmail.com
-  github : ssampaoli
-  twitter : sebasampaoli
-  feedburner : feedname
+author:
+  name: Sebastian Sampaoli
+  email: seba.sampaoli@gmail.com
+  github: ssampaoli
+  twitter: sebasampaoli
+  feedburner: feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -32,7 +32,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://ssampaoli.github.io
+production_url: http://ssampaoli.github.io
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
@@ -50,6 +50,6 @@ social:
   - title: linkedin
     url: 
 
-blog_path : /blog.html
+blog_path: /blog.html
 # blog_path : /posts.html
 

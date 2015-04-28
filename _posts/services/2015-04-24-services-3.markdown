@@ -3,7 +3,7 @@ layout: default
 img: embedded_systems.png
 category: Services
 pathName: dsls-and-embedded-systems
-title: DSLs and Embedded Systems
+title: DSLs and Embedded
 description: |
 ---
   These kind of projects are a particular case of the aforementioned Engineering tools section. However, we strongly believe that they deserve an special treatment since **the technical knowledge required by these projects is enormous and demanding.**

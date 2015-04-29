@@ -13,10 +13,10 @@
                         <a href="#about">About</a>
                     </li>
                     {% for service in site.categories.services reversed %}
-                    <li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <a href="#{{ service.pathName }}">{{ service.title }}</a>
-                    </li>
+                        <li>
+                            <a href="#{{ service.pathName }}">{{ service.title }}</a>
+                        </li>
                     {% endfor %}    
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>

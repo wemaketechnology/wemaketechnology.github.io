@@ -17,12 +17,6 @@ description: > # Write an awesome description for your new site here.
   head meta (for Google search results) and in your feed.xml site 
   description.
 
-author:
-  email: seba.sampaoli@gmail.com
-  github: ssampaoli
-  twitter: sebasampaoli
-  feedburner: feedname
-
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls

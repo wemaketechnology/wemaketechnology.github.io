@@ -45,4 +45,5 @@ social:
 
 blog_path: /blog.html
 # blog_path : /posts.html
+exclude: [js/bootstrap.js, js/jquery-1.11.0.js, css/landing-page.css, css/bootstrap.css, font-awesome-4.1.0/css/font-awesome.css, font-awesome-4.1.0/scss, font-awesome-4.1.0/less]
 

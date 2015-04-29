@@ -12,13 +12,12 @@ title: Make Technology
 name: Make Technology
 email: seba.sampaoli@gmail.com
 author: Sebastian Sampaoli
-description: > # "Write an awesome description for your new site here. 
+description: > # Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
   head meta (for Google search results) and in your feed.xml site 
-  description."
+  description.
 
 author:
-  name: Sebastian Sampaoli
   email: seba.sampaoli@gmail.com
   github: ssampaoli
   twitter: sebasampaoli

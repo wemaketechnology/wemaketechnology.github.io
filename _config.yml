@@ -12,10 +12,13 @@ title: Make Technology
 name: Make Technology
 email: seba.sampaoli@gmail.com
 author: Sebastian Sampaoli
-description: > # Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+description: > # Write an awesome description for your new site here.
+  Make Technology is a modern technology company that develops high quality software 
+  for enterprise applications, engineering tools, domain specific languages, 
+  and embedded systems. 
+  Most of our development are based on Eclipse RCP and Eclipse plugins. As a 
+  result we use Eclipse related technologies, such us: Eclipse 4, OSGI, EMF, 
+  ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, among others.
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

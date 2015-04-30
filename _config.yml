@@ -18,7 +18,8 @@ description: > # Write an awesome description for your new site here.
   and embedded systems. 
   Most of our development are based on Eclipse RCP and Eclipse plugins. As a 
   result we use Eclipse related technologies, such us: Eclipse 4, OSGI, EMF, 
-  ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, among others.
+  ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, Eclipse Xtext, among others. 
+  We also provide an Xtext solution for Microsoft Visual Studio.
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

@@ -6,13 +6,14 @@ excerpt: "Just about everything you'll need to style in the theme: headings, par
 modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
+author: seba_sampaoli
 image:
-  feature: sample-image-5.jpg
+  feature: product_development.png
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-<section id="table-of-contents" class="toc">
+<!-- <section id="table-of-contents" class="toc">
   <header>
     <h3>Overview</h3>
   </header>
@@ -90,6 +91,11 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
   margin: 0 -240px 0 0;
   width: 100%;
 }
+{% endhighlight %}
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
 {% endhighlight %}
 
 ## Buttons

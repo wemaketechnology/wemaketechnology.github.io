@@ -36,6 +36,7 @@ production_url: http://www.wemaketechnology.com
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
 # ----------------------- #
 #   3rd Party Settings    #

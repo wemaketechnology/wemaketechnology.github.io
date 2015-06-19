@@ -5,50 +5,46 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 {% include head.html %}
 
-<body class="post">
-
 {% include page_header.html %}
 
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
-
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include author-bio.html %}
-  </div>
-  <article class="post">
-    <div class="headline-wrap">
-      {% if page.link %}
-        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
-      {% else %}
-        <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-      {% endif %}
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap">
-      {{ content }}
-      <hr />
-      <footer role="contentinfo">
-        {% if page.share != false %}{% include social-share.html %}{% endif %}
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-      </footer>
-    </div><!-- /.article-wrap -->
-  {% if site.owner.disqus-shortname and page.comments == true %}
-    <section id="disqus_thread"></section><!-- /#disqus_thread -->
-  {% endif %}
-  </article>
-</div><!-- /#main -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-sm-6 image-service">
+        <div class="clearfix"></div>
+        <h2 class="section-heading"></h2>
+        <div class="lead">
+          {% include author-bio.html %}
+        </div>
+    </div>
+    <div class="col-lg-offset-1 col-lg-8 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading"></h2>
+        <div class="lead">
+            <article class="post">
+                  <div class="headline-wrap">
+                    {% if page.link %}
+                      <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+                    {% else %}
+                      <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+                    {% endif %}
+                  </div><!--/ .headline-wrap -->
+                  <div class="article-wrap">
+                    {{ content }}
+                    <hr />
+                    <footer role="contentinfo">
+                      {% if page.share != false %}{% include social-share.html %}{% endif %}
+                      <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+                    </footer>
+                  </div><!-- /.article-wrap -->
+                {% if site.owner.disqus-shortname and page.comments == true %}
+                  <section id="disqus_thread"></section><!-- /#disqus_thread -->
+                {% endif %}
+            </article>
+        </div>
+    </div>
+  </div><!-- /#row... -->
+</div><!-- /#row -->
 
 <div class="footer-wrap">
   {% if site.related_posts.size > 0 %}
@@ -64,16 +60,14 @@
   {% endif %}
 </div><!-- /.footer-wrap -->
 
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+{% include js.html %}
 
 <div class="footer-wrap">
   {% include page_footer.html %}
 </div><!-- /.footer-wrap -->
 
-{% if page.comments %}
-  {% include disqus_comments.html %}
-{% endif %}
-
-{% include js.html %}    
-
-</body>
 </html>

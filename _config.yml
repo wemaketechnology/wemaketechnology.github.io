@@ -21,6 +21,38 @@ description: > # Write an awesome description for your new site here.
   ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, Eclipse Xtext, among others. 
   We also provide an Xtext solution for Microsoft Visual Studio.
 
+# Site owner
+owner:
+  name: Sebastian Sampaoli
+  avatar: avatar_ss.jpg
+  bio: "Serial Entrepreneur. In my spare time, I play football in the big leagues."
+  email: seba.sampaoli@gmail.com
+  disqus-shortname: maketechnologyblog
+  twitter: sebasampaoli
+  facebook: seba.sampaoli
+  google:
+    plus: SebastianSampaoli
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #username
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -50,5 +82,5 @@ highlighter: pygments
 
 blog_path: /blog.html
 # blog_path : /posts.html
-exclude: [js/bootstrap.js, js/jquery-1.11.0.js, css/landing-page.css, css/bootstrap.css, font-awesome-4.1.0/css/font-awesome.css, font-awesome-4.1.0/scss, font-awesome-4.1.0/less]
+exclude: [js/bootstrap.js, js/jquery-1.11.0.js, css/landing-page.css, css/bootstrap.css, font-awesome-4.1.0/css/font-awesome.css, font-awesome-4.1.0/scss, font-awesome-4.1.0/less, README.md]
 

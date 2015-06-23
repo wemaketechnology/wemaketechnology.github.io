@@ -33,8 +33,13 @@
                     {{ content }}
                     <hr />
                     <div id="share-with" role="contentinfo">
+                      <div class="col-lg-12 col-sm-6">
                       {% if page.share != false %}{% include social-share.html %}{% endif %}
+                      </div>
+                      <h2 class="section-heading"></h2>
+                      <div class="col-lg-12 col-sm-6">
                       <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+                      </div>
                     </div>
                   </div><!-- /.article-wrap -->
                 {% if site.owner.disqus-shortname and page.comments == true %}
@@ -69,7 +74,7 @@
 
               {% if sameTagCount >= 2 %}
                 <div>
-                  <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                  <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
                 </div>
               {% endif %}
 

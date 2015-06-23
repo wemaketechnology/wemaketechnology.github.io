@@ -28,9 +28,12 @@
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="{{site.blog_path}}">Blog</a>
-                    </li>
+                    {% assign size = site.categories.blog | size %}
+                    {% if size > 0 %}
+                        <li>
+                            <a href="{{site.blog_path}}">Blog</a>
+                        </li>
+                    {% endif %}
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; {{ site.title }} All Rights Reserved</p>
             </div>

@@ -82,5 +82,5 @@ highlighter: pygments
 
 blog_path: /blog.html
 # blog_path : /posts.html
-exclude: [js/bootstrap.js, js/jquery-1.11.0.js, css/landing-page.css, css/bootstrap.css, css/page.css, css/bootstrap-social.css, font-awesome-4.1.0/css/font-awesome.css, font-awesome-4.1.0/scss, font-awesome-4.1.0/less, "GemFile", "Gemfile.lock", README.md]
+exclude: [js/bootstrap.js, js/jquery-1.11.0.js, js/landing-page.js, css/landing-page.css, css/bootstrap.css, css/page.css, css/bootstrap-social.css, font-awesome-4.1.0/css/font-awesome.css, font-awesome-4.1.0/scss, font-awesome-4.1.0/less, "GemFile", "Gemfile.lock", README.md]
 

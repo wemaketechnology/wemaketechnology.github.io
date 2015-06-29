@@ -17,7 +17,7 @@ description: > # Write an awesome description for your new site here.
   for enterprise applications, engineering tools, domain specific languages, 
   and embedded systems. 
   Most of our development are based on Eclipse RCP and Eclipse plugins. As a 
-  result we use Eclipse related technologies, such us: Eclipse 4, OSGI, EMF, 
+  result, we use Eclipse related technologies, such us: Eclipse 4, OSGI, Eclipse EMF, 
   ECP, EMF Forms, Graphiti, Eclipse GMF, Eclipse Sirius, Eclipse Xtext, among others. 
   We also provide an Xtext solution for Microsoft Visual Studio.
 

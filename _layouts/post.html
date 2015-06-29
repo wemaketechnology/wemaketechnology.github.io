@@ -7,6 +7,16 @@
 
 {% include page_header.html %}
 
+{% if page.image.feature %}
+  <img class="img-responsive" src=
+    {% if page.image.feature contains 'http' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      " /img/features/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+{% endif %}
+
 <div class="container">
   <div class="row">
     <div class="col-lg-2 col-sm-6 image-service">

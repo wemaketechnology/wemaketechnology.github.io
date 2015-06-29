@@ -8,7 +8,7 @@ tags: [intro, beginner, jekyll, tutorial]
 comments: true
 author: seba_sampaoli
 image:
-  feature: product_development.png
+  feature: sample-post.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---

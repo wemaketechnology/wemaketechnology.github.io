@@ -33,6 +33,7 @@ author: the id of the author as appear in the authors.yml file
 ---
 The content of the post is written here in Markdown syntax.
 ```
+ - You may also add a feature image, an image that will appear at the top of your post, adding the front matter attribute `image: feature:` (Please see the sample-post.md file for this option).
  - You should write and save your blog posts in the _drafts folder before publishing. This way you can test and verify that the content and layout of your post is the one you desire. Besides, this is a great way to allow others team members review your posts before publishing. To preview your site with drafts, simply run `bundle exec jekyll serve --drafts`.
  - Once you (or the people you want) has verified that the post is correct you can publish it moving the post file from the _drafts folder to the _posts/blog/ folder. If you haven't done it before, remember to name it in the format year-month-day-title.md, and include the front matter at the top of the post.
  - Commit the post’s Markdown file, and push to our GitHub repository.
